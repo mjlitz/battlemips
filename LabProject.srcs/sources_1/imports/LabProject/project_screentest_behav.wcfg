@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="project_screentest_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="project_screentest" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="18928000fs"></ZoomStartTime>
+      <ZoomEndTime time="23948001fs"></ZoomEndTime>
+      <Cursor1Time time="200000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="184"></NameColumnWidth>
+      <ValueColumnWidth column_width="62"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="115" />
+   <wvobject fp_name="/project_screentest/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/pc" type="array">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/instr" type="array">
+      <obj_property name="ElementShortName">instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/mem_addr" type="array">
+      <obj_property name="ElementShortName">mem_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/mem_wr" type="logic">
+      <obj_property name="ElementShortName">mem_wr</obj_property>
+      <obj_property name="ObjectShortName">mem_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/mem_readdata" type="array">
+      <obj_property name="ElementShortName">mem_readdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_readdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/mem_writedata" type="array">
+      <obj_property name="ElementShortName">mem_writedata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_writedata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/werf" type="logic">
+      <obj_property name="ElementShortName">werf</obj_property>
+      <obj_property name="ObjectShortName">werf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/uut/memIO/dmem/dout" type="array">
+      <obj_property name="ElementShortName">dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/alufn" type="array">
+      <obj_property name="ElementShortName">alufn[4:0]</obj_property>
+      <obj_property name="ObjectShortName">alufn[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/Z" type="logic">
+      <obj_property name="ElementShortName">Z</obj_property>
+      <obj_property name="ObjectShortName">Z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ReadData1" type="array">
+      <obj_property name="ElementShortName">ReadData1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ReadData2" type="array">
+      <obj_property name="ElementShortName">ReadData2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/alu_result" type="array">
+      <obj_property name="ElementShortName">alu_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/reg_writeaddr" type="array">
+      <obj_property name="ElementShortName">reg_writeaddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_writeaddr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/reg_writedata" type="array">
+      <obj_property name="ElementShortName">reg_writedata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_writedata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/signImm" type="array">
+      <obj_property name="ElementShortName">signImm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">signImm[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/aluA" type="array">
+      <obj_property name="ElementShortName">aluA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/aluB" type="array">
+      <obj_property name="ElementShortName">aluB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/pcsel" type="array">
+      <obj_property name="ElementShortName">pcsel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pcsel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/wasel" type="array">
+      <obj_property name="ElementShortName">wasel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">wasel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/sext" type="logic">
+      <obj_property name="ElementShortName">sext</obj_property>
+      <obj_property name="ObjectShortName">sext</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/bsel" type="logic">
+      <obj_property name="ElementShortName">bsel</obj_property>
+      <obj_property name="ObjectShortName">bsel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/wdsel" type="array">
+      <obj_property name="ElementShortName">wdsel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">wdsel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/wr" type="logic">
+      <obj_property name="ElementShortName">wr</obj_property>
+      <obj_property name="ObjectShortName">wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/asel" type="array">
+      <obj_property name="ElementShortName">asel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">asel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/smem_addr" type="array">
+      <obj_property name="ElementShortName">smem_addr[10:0]</obj_property>
+      <obj_property name="ObjectShortName">smem_addr[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/charcode" type="array">
+      <obj_property name="ElementShortName">charcode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">charcode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/dmem_wr" type="logic">
+      <obj_property name="ElementShortName">dmem_wr</obj_property>
+      <obj_property name="ObjectShortName">dmem_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/smem_wr" type="logic">
+      <obj_property name="ElementShortName">smem_wr</obj_property>
+      <obj_property name="ObjectShortName">smem_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/hsync" type="logic">
+      <obj_property name="ElementShortName">hsync</obj_property>
+      <obj_property name="ObjectShortName">hsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/vsync" type="logic">
+      <obj_property name="ElementShortName">vsync</obj_property>
+      <obj_property name="ObjectShortName">vsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/red" type="array">
+      <obj_property name="ElementShortName">red[3:0]</obj_property>
+      <obj_property name="ObjectShortName">red[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/green" type="array">
+      <obj_property name="ElementShortName">green[3:0]</obj_property>
+      <obj_property name="ObjectShortName">green[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/blue" type="array">
+      <obj_property name="ElementShortName">blue[3:0]</obj_property>
+      <obj_property name="ObjectShortName">blue[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/x" type="array">
+      <obj_property name="ElementShortName">x[9:0]</obj_property>
+      <obj_property name="ObjectShortName">x[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/y" type="array">
+      <obj_property name="ElementShortName">y[9:0]</obj_property>
+      <obj_property name="ObjectShortName">y[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/bmem_addr" type="array">
+      <obj_property name="ElementShortName">bmem_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">bmem_addr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/bmem_color" type="array">
+      <obj_property name="ElementShortName">bmem_color[11:0]</obj_property>
+      <obj_property name="ObjectShortName">bmem_color[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_pc" type="array">
+      <obj_property name="ElementShortName">c_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_instr" type="array">
+      <obj_property name="ElementShortName">c_instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_mem_addr" type="array">
+      <obj_property name="ElementShortName">c_mem_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_mem_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_mem_wr" type="logic">
+      <obj_property name="ElementShortName">c_mem_wr</obj_property>
+      <obj_property name="ObjectShortName">c_mem_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_mem_readdata" type="array">
+      <obj_property name="ElementShortName">c_mem_readdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_mem_readdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_mem_writedata" type="array">
+      <obj_property name="ElementShortName">c_mem_writedata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_mem_writedata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_werf" type="logic">
+      <obj_property name="ElementShortName">c_werf</obj_property>
+      <obj_property name="ObjectShortName">c_werf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_alufn" type="array">
+      <obj_property name="ElementShortName">c_alufn[4:0]</obj_property>
+      <obj_property name="ObjectShortName">c_alufn[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_Z" type="logic">
+      <obj_property name="ElementShortName">c_Z</obj_property>
+      <obj_property name="ObjectShortName">c_Z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_ReadData1" type="array">
+      <obj_property name="ElementShortName">c_ReadData1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_ReadData1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_ReadData2" type="array">
+      <obj_property name="ElementShortName">c_ReadData2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_ReadData2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_alu_result" type="array">
+      <obj_property name="ElementShortName">c_alu_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_alu_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_reg_writeaddr" type="array">
+      <obj_property name="ElementShortName">c_reg_writeaddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">c_reg_writeaddr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_reg_writedata" type="array">
+      <obj_property name="ElementShortName">c_reg_writedata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_reg_writedata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_signImm" type="array">
+      <obj_property name="ElementShortName">c_signImm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_signImm[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_aluA" type="array">
+      <obj_property name="ElementShortName">c_aluA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_aluA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_aluB" type="array">
+      <obj_property name="ElementShortName">c_aluB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_aluB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_pcsel" type="array">
+      <obj_property name="ElementShortName">c_pcsel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">c_pcsel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_wasel" type="array">
+      <obj_property name="ElementShortName">c_wasel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">c_wasel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_sext" type="logic">
+      <obj_property name="ElementShortName">c_sext</obj_property>
+      <obj_property name="ObjectShortName">c_sext</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_bsel" type="logic">
+      <obj_property name="ElementShortName">c_bsel</obj_property>
+      <obj_property name="ObjectShortName">c_bsel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_wdsel" type="array">
+      <obj_property name="ElementShortName">c_wdsel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">c_wdsel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_wr" type="logic">
+      <obj_property name="ElementShortName">c_wr</obj_property>
+      <obj_property name="ObjectShortName">c_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_asel" type="array">
+      <obj_property name="ElementShortName">c_asel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">c_asel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_smem_addr" type="array">
+      <obj_property name="ElementShortName">c_smem_addr[10:0]</obj_property>
+      <obj_property name="ObjectShortName">c_smem_addr[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_charcode" type="array">
+      <obj_property name="ElementShortName">c_charcode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">c_charcode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_dmem_wr" type="logic">
+      <obj_property name="ElementShortName">c_dmem_wr</obj_property>
+      <obj_property name="ObjectShortName">c_dmem_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_smem_wr" type="logic">
+      <obj_property name="ElementShortName">c_smem_wr</obj_property>
+      <obj_property name="ObjectShortName">c_smem_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_hsync" type="logic">
+      <obj_property name="ElementShortName">c_hsync</obj_property>
+      <obj_property name="ObjectShortName">c_hsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_vsync" type="logic">
+      <obj_property name="ElementShortName">c_vsync</obj_property>
+      <obj_property name="ObjectShortName">c_vsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_red" type="array">
+      <obj_property name="ElementShortName">c_red[3:0]</obj_property>
+      <obj_property name="ObjectShortName">c_red[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_green" type="array">
+      <obj_property name="ElementShortName">c_green[3:0]</obj_property>
+      <obj_property name="ObjectShortName">c_green[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_blue" type="array">
+      <obj_property name="ElementShortName">c_blue[3:0]</obj_property>
+      <obj_property name="ObjectShortName">c_blue[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_x" type="array">
+      <obj_property name="ElementShortName">c_x[9:0]</obj_property>
+      <obj_property name="ObjectShortName">c_x[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_y" type="array">
+      <obj_property name="ElementShortName">c_y[9:0]</obj_property>
+      <obj_property name="ObjectShortName">c_y[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_bmem_addr" type="array">
+      <obj_property name="ElementShortName">c_bmem_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">c_bmem_addr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/c_bmem_color" type="array">
+      <obj_property name="ElementShortName">c_bmem_color[11:0]</obj_property>
+      <obj_property name="ObjectShortName">c_bmem_color[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR" type="logic">
+      <obj_property name="ElementShortName">ERROR</obj_property>
+      <obj_property name="ObjectShortName">ERROR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_pc" type="logic">
+      <obj_property name="ElementShortName">ERROR_pc</obj_property>
+      <obj_property name="ObjectShortName">ERROR_pc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_instr" type="logic">
+      <obj_property name="ElementShortName">ERROR_instr</obj_property>
+      <obj_property name="ObjectShortName">ERROR_instr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_mem_addr" type="logic">
+      <obj_property name="ElementShortName">ERROR_mem_addr</obj_property>
+      <obj_property name="ObjectShortName">ERROR_mem_addr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_mem_wr" type="logic">
+      <obj_property name="ElementShortName">ERROR_mem_wr</obj_property>
+      <obj_property name="ObjectShortName">ERROR_mem_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_mem_readdata" type="logic">
+      <obj_property name="ElementShortName">ERROR_mem_readdata</obj_property>
+      <obj_property name="ObjectShortName">ERROR_mem_readdata</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_mem_writedata" type="logic">
+      <obj_property name="ElementShortName">ERROR_mem_writedata</obj_property>
+      <obj_property name="ObjectShortName">ERROR_mem_writedata</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_werf" type="logic">
+      <obj_property name="ElementShortName">ERROR_werf</obj_property>
+      <obj_property name="ObjectShortName">ERROR_werf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_alufn" type="logic">
+      <obj_property name="ElementShortName">ERROR_alufn</obj_property>
+      <obj_property name="ObjectShortName">ERROR_alufn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_Z" type="logic">
+      <obj_property name="ElementShortName">ERROR_Z</obj_property>
+      <obj_property name="ObjectShortName">ERROR_Z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_ReadData1" type="logic">
+      <obj_property name="ElementShortName">ERROR_ReadData1</obj_property>
+      <obj_property name="ObjectShortName">ERROR_ReadData1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_ReadData2" type="logic">
+      <obj_property name="ElementShortName">ERROR_ReadData2</obj_property>
+      <obj_property name="ObjectShortName">ERROR_ReadData2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_alu_result" type="logic">
+      <obj_property name="ElementShortName">ERROR_alu_result</obj_property>
+      <obj_property name="ObjectShortName">ERROR_alu_result</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_reg_writeaddr" type="logic">
+      <obj_property name="ElementShortName">ERROR_reg_writeaddr</obj_property>
+      <obj_property name="ObjectShortName">ERROR_reg_writeaddr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_reg_writedata" type="logic">
+      <obj_property name="ElementShortName">ERROR_reg_writedata</obj_property>
+      <obj_property name="ObjectShortName">ERROR_reg_writedata</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_signImm" type="logic">
+      <obj_property name="ElementShortName">ERROR_signImm</obj_property>
+      <obj_property name="ObjectShortName">ERROR_signImm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_aluA" type="logic">
+      <obj_property name="ElementShortName">ERROR_aluA</obj_property>
+      <obj_property name="ObjectShortName">ERROR_aluA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_aluB" type="logic">
+      <obj_property name="ElementShortName">ERROR_aluB</obj_property>
+      <obj_property name="ObjectShortName">ERROR_aluB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_pcsel" type="logic">
+      <obj_property name="ElementShortName">ERROR_pcsel</obj_property>
+      <obj_property name="ObjectShortName">ERROR_pcsel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_wasel" type="logic">
+      <obj_property name="ElementShortName">ERROR_wasel</obj_property>
+      <obj_property name="ObjectShortName">ERROR_wasel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_sext" type="logic">
+      <obj_property name="ElementShortName">ERROR_sext</obj_property>
+      <obj_property name="ObjectShortName">ERROR_sext</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_bsel" type="logic">
+      <obj_property name="ElementShortName">ERROR_bsel</obj_property>
+      <obj_property name="ObjectShortName">ERROR_bsel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_wdsel" type="logic">
+      <obj_property name="ElementShortName">ERROR_wdsel</obj_property>
+      <obj_property name="ObjectShortName">ERROR_wdsel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_wr" type="logic">
+      <obj_property name="ElementShortName">ERROR_wr</obj_property>
+      <obj_property name="ObjectShortName">ERROR_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_asel" type="logic">
+      <obj_property name="ElementShortName">ERROR_asel</obj_property>
+      <obj_property name="ObjectShortName">ERROR_asel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_smem_addr" type="logic">
+      <obj_property name="ElementShortName">ERROR_smem_addr</obj_property>
+      <obj_property name="ObjectShortName">ERROR_smem_addr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_charcode" type="logic">
+      <obj_property name="ElementShortName">ERROR_charcode</obj_property>
+      <obj_property name="ObjectShortName">ERROR_charcode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_dmem_wr" type="logic">
+      <obj_property name="ElementShortName">ERROR_dmem_wr</obj_property>
+      <obj_property name="ObjectShortName">ERROR_dmem_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_smem_wr" type="logic">
+      <obj_property name="ElementShortName">ERROR_smem_wr</obj_property>
+      <obj_property name="ObjectShortName">ERROR_smem_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_hsync" type="logic">
+      <obj_property name="ElementShortName">ERROR_hsync</obj_property>
+      <obj_property name="ObjectShortName">ERROR_hsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_vsync" type="logic">
+      <obj_property name="ElementShortName">ERROR_vsync</obj_property>
+      <obj_property name="ObjectShortName">ERROR_vsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_red" type="logic">
+      <obj_property name="ElementShortName">ERROR_red</obj_property>
+      <obj_property name="ObjectShortName">ERROR_red</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_green" type="logic">
+      <obj_property name="ElementShortName">ERROR_green</obj_property>
+      <obj_property name="ObjectShortName">ERROR_green</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_blue" type="logic">
+      <obj_property name="ElementShortName">ERROR_blue</obj_property>
+      <obj_property name="ObjectShortName">ERROR_blue</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_x" type="logic">
+      <obj_property name="ElementShortName">ERROR_x</obj_property>
+      <obj_property name="ObjectShortName">ERROR_x</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_y" type="logic">
+      <obj_property name="ElementShortName">ERROR_y</obj_property>
+      <obj_property name="ObjectShortName">ERROR_y</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_bmem_addr" type="logic">
+      <obj_property name="ElementShortName">ERROR_bmem_addr</obj_property>
+      <obj_property name="ObjectShortName">ERROR_bmem_addr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_screentest/ERROR_bmem_color" type="logic">
+      <obj_property name="ElementShortName">ERROR_bmem_color</obj_property>
+      <obj_property name="ObjectShortName">ERROR_bmem_color</obj_property>
+   </wvobject>
+</wave_config>
